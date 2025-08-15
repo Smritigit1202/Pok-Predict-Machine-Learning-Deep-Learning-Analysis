@@ -5,26 +5,7 @@ Each ML/DL model is implemented in a separate Python file for clarity.
 
 ---
 
-## 📂 Project Structure
-pokemon_analysis/
-│
-├── data/
-│   └── pokemon.csv         # Dataset (download from Kaggle)
-│
-├── utils.py                # Common data loading & preprocessing functions
-├── linear_regression.py    # Predict total stats (Regression)
-├── logistic_regression.py  # Predict Legendary status (Classification)
-├── svm.py                  # Support Vector Machine Classifier
-├── decision_tree.py        # Decision Tree Classifier
-├── kmeans.py               # K-Means Clustering
-├── pca.py                  # PCA Dimensionality Reduction
-├── neural_network.py       # Basic MLP Classifier (Sklearn)
-├── deep_learning.py        # Deep Learning Model (Keras/TensorFlow)
-├── naive_bayes.py          # Naive Bayes Classifier
-├── knn.py                  # K-Nearest Neighbors Classifier
-└── README.md               # Project documentation
 
----
 
 ## 📊 Dataset
 - Source: Kaggle Pokémon Dataset → https://www.kaggle.com/abcsds/pokemon
@@ -36,11 +17,9 @@ pokemon_analysis/
 ## 🔧 Installation
 
 1️⃣ Clone the repository  
-git clone https://github.com/yourusername/pokemon_analysis.git  
-cd pokemon_analysis  
+ 
 
 2️⃣ Install dependencies  
-pip install -r requirements.txt  
 
 requirements.txt:
 pandas
